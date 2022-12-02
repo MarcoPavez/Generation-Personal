@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ReEjercitarApplication<re_ejercitar>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.re_ejercitar.re_ejercitar.ReEjercitarApplication",
+            "projectName": "re_ejercitar",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

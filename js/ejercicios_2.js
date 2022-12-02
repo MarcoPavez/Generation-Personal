@@ -242,7 +242,7 @@ for(i<0;i<arrayDescendente.length;i++){
         let arrayOrdenado = arrayDescendente[i];                 
         arrayDescendente[i] = arrayDescendente[i + 1];              
         arrayDescendente[i + 1] = arrayOrdenado;
-        i = -1;                                                 // para iterar hasta que for verifique hasta que [i] sea mayor que [i+]
+        i = -1;                                                 // para iterar hasta que for verifique hasta que [i] sea mayor que [i+1]
             } 
         }
    

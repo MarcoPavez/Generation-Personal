@@ -1,0 +1,71 @@
+/* Comentario es CTRL + K + C */
+
+/*  selectores */
+/* por etiqueta */
+
+body{
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul, li{
+    list-style: none;
+}
+
+
+/* Por clase */
+.navegacion{
+    color: rgb(158, 253, 4);
+    background-color: rgb(61, 61, 185);
+    border: 2px black dotted;
+    width: 120px;
+    height: 20px;
+    border-radius: 15%;
+    text-align:center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+
+/* por id con #*/
+
+
+#menuNavegacion{
+    margin: 10px;
+    width: 900px;
+    font-family: sans-serif;
+    color: red;
+    
+}
+
+#menuNavegacion li{
+    display: block;
+    width: 120px;
+    float:left;
+    margin-left: 2px;
+    border: 1px solid #000;
+}
+
+#menuNavegacion a{
+    display:block;
+    padding:1px;
+    text-decoration: none;
+    background-color: lightsteelblue;
+    color: black;
+    font-size: small;
+    text-align: center;
+}
+
+#mainMenu a:hover {
+	background-color:#009;
+	color:lightcoral;
+}
+
+
+
+
