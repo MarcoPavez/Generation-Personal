@@ -1,0 +1,84 @@
+/* Comentario es CTRL + K + C */
+
+/* Selectores*/
+/* Por etiqueta es con su propio nombre*/
+/* Por clase  es con punto */
+/* Por id es con #*/
+
+/* DESARROLLO */
+
+/* Ajustes previos de la página */
+/* Tipo de letra de la página */
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Display de la página */
+main{
+    display: flexbox;
+}
+
+/* Gradiante del fondo de la página */
+
+body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+}
+
+/* HEADER Y SU GRADIANTE */
+
+header{
+    text-align: center;
+    color: #034f84;
+    background: -webkit-linear-gradient(#062794, #6f00ff, rgb(236, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* MENU DE NAVEGACION */
+
+#navMenu a{
+ 
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
+
+
+/* Subtitulo */
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ASIDE */
+
+#idSide{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#idSideHijo{
+    margin-top: 20px;
+    width: 20%;
+    height: 50%;
+    background-color: black;
+    color: white;
+}
+
+/* Listas */
+
+.listaUno{
+   margin-top: -20px;
+
+}
+
+
